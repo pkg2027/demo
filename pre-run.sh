@@ -2,8 +2,6 @@
 date
 cal
 ping google.com -c3
-uname -a
+uname
 whoami
 pwd
-df -h
-lsblk -fp
