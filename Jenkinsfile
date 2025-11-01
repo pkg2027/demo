@@ -49,20 +49,20 @@ pipeline {
 
     post {
         always {
-            echo "🧹 Cleaning up workspace..."
+            echo " Cleaning up workspace..."
             deleteDir()
         }
         success {
-            echo "✅ Pipeline completed successfully!"
+            echo " Pipeline completed successfully!"
         }
         failure {
-            echo "❌ Pipeline failed. Check console output for details."
+            echo " Pipeline failed. Check console output for details."
         }
         unstable {
-            echo "⚠️ Pipeline marked as unstable. Review logs."
+            echo " Pipeline marked as unstable. Review logs."
         }
         aborted {
-            echo "⏹️ Pipeline was aborted by user."
+            echo " Pipeline was aborted by user."
         }
     }
 }
