@@ -1,6 +1,7 @@
 !#/bin/bash
 # Saving output
-""" date
+"""
+date
 echo ""
 hostnamectl
 echo ""
@@ -12,4 +13,5 @@ who
 echo ""
 uname -asrm
 echo ""
-ss- antpl """
+ss- antpl
+""" >> data.txt
